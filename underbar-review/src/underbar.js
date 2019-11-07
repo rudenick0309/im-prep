@@ -3,7 +3,7 @@ const _ = {};
 // Returns whatever value is passed as the argument. This function doesn't
 // seem very useful, but remember it--if a function needs to provide an
 // iterator when the user does not pass one in, this will be handy.
-_.identity = function(val) { };
+_.identity = function(val) {};
 
 /**
  * COLLECTIONS
@@ -32,8 +32,7 @@ _.first = function(array, n) {
 
 // Like first, but for the last elements. If n is undefined, return just the
 // last element.
-_.last = function(array, n) {
-};
+_.last = function(array, n) {};
 
 // Return all elements of an array that don't pass a truth test.
 _.reject = function(collection, test) {
@@ -42,8 +41,7 @@ _.reject = function(collection, test) {
 };
 
 // Produce a duplicate-free version of the array.
-_.uniq = function(array) {
-};
+_.uniq = function(array) {};
 
 // Return the results of applying an iterator to each element.
 _.map = function(collection, iterator) {
@@ -51,12 +49,6 @@ _.map = function(collection, iterator) {
   // like each(), but in addition to running the operation on all
   // the members, it also maintains an array of results.
 };
-
-/*
- * TIP: map is really handy when you want to transform an array of
- * values into a new array of values. _.pluck() is solved for you
- * as an example of this.
- */
 
 // Takes an array of objects and returns and array of the values of
 // a certain property in it. E.g. take an array of people and return
@@ -90,14 +82,12 @@ _.pluck = function(collection, key) {
 _.reduce = function(collection, iterator, accumulator) {};
 
 // Determine if the array or object contains a given value (using `===`).
-_.contains = function(collection, target) {
-};
+_.contains = function(collection, target) {};
 
 // Determine whether all of the elements match a predicate truth test.
 // _.every([2, 4, 5], function(num) {return num % 2 == 0})
 // => false
-_.every = function(collection, predicate) {
-};
+_.every = function(collection, predicate) {};
 
 // Determine whether any of the elements pass a truth test. If no iterator is
 // provided, provide a default one
@@ -123,13 +113,11 @@ _.some = function(collection, iterator) {
 //   }, {
 //     bla: "even more stuff"
 //   }); // obj1 now contains key1, key2, key3 and bla
-_.extend = function(obj) {
-};
+_.extend = function(obj) {};
 
 // Like extend, but doesn't ever overwrite a key that already
 // exists in obj
-_.defaults = function(obj) {
-};
+_.defaults = function(obj) {};
 
 /**
  * FUNCTIONS
@@ -170,8 +158,7 @@ _.once = function(func) {
 // _.memoize should return a function that, when called, will check if it has
 // already computed the result for the given argument and return that value
 // instead if possible.
-_.memoize = function(func) {
-};
+_.memoize = function(func) {};
 
 // Delays a function for the given number of milliseconds, and then calls
 // it with the arguments supplied.
@@ -179,8 +166,7 @@ _.memoize = function(func) {
 // The arguments for the original function are passed after the wait
 // parameter. For example _.delay(someFunction, 500, 'a', 'b') will
 // call someFunction('a', 'b') after 500ms
-_.delay = function(func, wait) {
-};
+_.delay = function(func, wait) {};
 
 /**
  * ADVANCED COLLECTION OPERATIONS
@@ -192,7 +178,6 @@ _.delay = function(func, wait) {
 // TIP: This function's test suite will ask that you not modify the original
 // input array. For a tip on how to make a copy of an array, see:
 // http://mdn.io/Array.prototype.slice
-_.shuffle = function(array) {
-};
+_.shuffle = function(array) {};
 
 module.exports = _;
