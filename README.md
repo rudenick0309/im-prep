@@ -52,10 +52,11 @@
 2. fork된 repo를 git clone 명령어로 자신의 local 환경으로 다운로드합니다.
 3. Leanco에서 Pair Programming 전에 혼자서 진행할 부분을 확인합니다.
 4. Pair분과 함께 Programming을 하며 재밌게 coding합니다.
+5. 코드 확인은 `npm run test` 명령어를 통해 테스트 할 수 있습니다.
 
 ## 제출 방법
 
-1. student.json 파일에 필요한 정보를 입력합니다.
-2. REVIEW.md 파일에 이번 Sprint를 마무리하며 review를 작성합니다.
+1. student.json 파일에 필요한 정보를 입력합니다. student.json 파일을 수정하지 않으면 과제가 제출되지 않습니다.
+2. 과제 제출 전에 `npm run test` 를 실행시켜 과제 결과를 업데이트 합니다. 
 3. `npm run submit`을 실행시켜 sprint를 제출합니다.
 4. 자신의 github(remote) repo에 push합니다.
