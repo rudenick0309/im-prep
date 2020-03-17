@@ -19,5 +19,9 @@
   ],
   "author": "codesatates",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
 }
