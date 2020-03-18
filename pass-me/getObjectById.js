@@ -1,3 +1,5 @@
+/* eslint-disable consistent-return */
+/* eslint-disable no-unused-vars */
 /*
 "getObjectById" 메소드를 작성합니다.
 
@@ -9,6 +11,10 @@ let output = getObjectById(TREE_DATA.items, '1'));
 console.log(output); // --> { "id": "1", "name": "johnny" }
 */
 
+<<<<<<< HEAD
+=======
+// eslint-disable-next-line no-unused-vars
+>>>>>>> 18c956969fb5343ca7d3a95e0a61ac9169448ecc
 const TREE_DATA = {
   items: [
     {
@@ -71,6 +77,7 @@ const TREE_DATA = {
   ],
 };
 
+<<<<<<< HEAD
 // eslint-disable-next-line consistent-return
 function getObjectById(json, id) {
   // your code here
@@ -82,3 +89,25 @@ module.exports = {
   getObjectById,
   TREE_DATA,
 };
+=======
+
+// 최종적인 마지막자식의 객체를 반환해라??
+// 해당 id를 가지고 있는 객체를 찾아라.
+// children 자식을 가지고 있는 개체 찾아라.
+
+// 따라서 자식을 가지고 있는 자식요소를 만나면 재귀함수를 써야한다.
+
+function getObjectById(json, id) {
+  // your code here
+
+  // eslint-disable-next-line no-plusplus
+  for (let i = 0; i < json.length; i++) {
+    if (json[i].id === id) {
+      return json[i];
+    }
+    if ('children' in json[i]) {
+      return getObjectById(json[i].children, id);
+    }
+  }
+}
+>>>>>>> 18c956969fb5343ca7d3a95e0a61ac9169448ecc
