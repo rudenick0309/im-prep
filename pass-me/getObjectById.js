@@ -110,4 +110,6 @@ function getObjectById(json, id) {
     }
   }
 }
+// 페어의 코드에서 내가 변경한 부분, 주석
+
 >>>>>>> 18c956969fb5343ca7d3a95e0a61ac9169448ecc
