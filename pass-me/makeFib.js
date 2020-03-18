@@ -23,6 +23,22 @@ fn(); // 5
 
 function makeFib() {
   // your code here
+  let count = 0;
+
+  function smFib() {
+    // console.log('sm 정')
+    count += 1;
+    return ssmFib(count - 1);
+  }
+  function ssmFib(n) {
+    if (n < 2) {
+      // console.log('ssm 이프 정') 빨간불?
+      return n;
+    } 
+    return ssmFib(n - 1) + ssmFib(n - 2);
+
+  }
+  return smFib;
 }
 
 module.exports = makeFib;
