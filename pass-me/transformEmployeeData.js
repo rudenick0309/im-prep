@@ -24,6 +24,19 @@
 
 function transformEmployeeData(array) {
   // your code here
+  const newA = [];
+  let newO = {};
+  const one = array.map((e) => e.reduce((a, c) => a.concat(c)));
+  console.log('확인', one, one.length);
+  for (let i = 0; i < one.length; i += 1) {
+    console.log(one);
+    for (let j = 0; j < one[i].length - 1; j += 2) {
+      newO[one[i][j]] = one[i][j + 1];
+    }
+    newA.push(newO);
+    newO = {};
+  }
+  return newA;
 }
 
 module.exports = transformEmployeeData;
