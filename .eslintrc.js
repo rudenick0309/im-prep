@@ -12,10 +12,15 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 2018,
+<<<<<<< HEAD
+=======
+    sourceType: 'module',
+>>>>>>> 591a5b3ce8ca093fff4c898fdb15387407dce62e
   },
   rules: {
   },
 };
+<<<<<<< HEAD
 
 
 // module.exports = {
@@ -48,3 +53,8 @@ module.exports = {
 //     "no-restricted-syntax": [0, "ForOfStatement"],
 //   }
 // };
+=======
+>>>>>>> 591a5b3ce8ca093fff4c898fdb15387407dce62e
+
+
+// 깃 테스트 중
