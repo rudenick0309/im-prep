@@ -13,10 +13,39 @@ multiplicativePersistence 함수는 양수를 파라미터로 받는 함수로,
 
 */
 
+// 자릿수의 곱셈이 한자리가 될때까지 함수를 반복한다.
+// num을 string으로 변환 후 자릿수마다 쪼갠다.
+// 다시 숫자변환 후 곱한다.
+// 이 작업을 num이 한자리가 될때까지 진행한다.
+
+
 function multiplicativePersistence(num) {
   // your code here
 
+<<<<<<< HEAD
 
+=======
+  if (num === 0) {
+    return 0;
+  }
+  if (num < 10) {
+    return num;
+  }
+
+  const arr = String(num).split(''); // ["1", "2", "3"]
+
+  const result = arr.reduce((pre, val) => Number(pre) * Number(val));
+
+  if (result > 9) { // 10이상의 숫자라면 또 반복해야된다.
+    console.log(result);
+    return multiplicativePersistence(result); // 여기가문제.... 리턴을 안했었다.......
+  }
+
+  // 페어님의 코드에서 추가하여 다시 push함.
+  return result;
+>>>>>>> 75258b76542a2760fb5dfbb81dd26db45ed24209
 }
 
-module.exports = multiplicativePersistence;
+if (typeof window === 'undefined') {
+  module.exports = multiplicativePersistence;
+}
