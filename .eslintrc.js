@@ -53,8 +53,8 @@ module.exports = {
 //     "no-restricted-syntax": [0, "ForOfStatement"],
 //   }
 // };
-=======
->>>>>>> 591a5b3ce8ca093fff4c898fdb15387407dce62e
+// =======
+// >>>>>>> 591a5b3ce8ca093fff4c898fdb15387407dce62e
 
 
 // 깃 테스트 중
