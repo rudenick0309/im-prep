@@ -42,7 +42,7 @@ global.printRole = function(user) {
 };
 
 function transformAsHTML(array) {
-  let container = document.querySelector("#container");
+  const container = document.querySelector('#container');
 
   // your code here
 }
