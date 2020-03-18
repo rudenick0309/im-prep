@@ -13,15 +13,24 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
 <<<<<<< HEAD
+<<<<<<< HEAD
     sourceType: 'module',
 =======
 >>>>>>> 46e688f30c05a52535845c4602a15578b232ac7b
+=======
+=======
+    sourceType: 'module',
+>>>>>>> 591a5b3ce8ca093fff4c898fdb15387407dce62e
+>>>>>>> 9f695a999d1a92feb211c49c2435ea87dc476924
   },
   rules: {
   },
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 9f695a999d1a92feb211c49c2435ea87dc476924
 
 
 // module.exports = {
@@ -54,4 +63,12 @@ module.exports = {
 //     "no-restricted-syntax": [0, "ForOfStatement"],
 //   }
 // };
+<<<<<<< HEAD
 >>>>>>> 46e688f30c05a52535845c4602a15578b232ac7b
+=======
+// =======
+// >>>>>>> 591a5b3ce8ca093fff4c898fdb15387407dce62e
+
+
+// 깃 테스트 중
+>>>>>>> 9f695a999d1a92feb211c49c2435ea87dc476924

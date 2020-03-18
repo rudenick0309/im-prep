@@ -1,7 +1,5 @@
 /* eslint-disable no-undef */
-const {
-  add, substract, multiply, divide,
-} = require('../math');
+const {  add, substract, multiply, divide,} = require('../math');
 
 // 1. Create test case to check add function works what it is supposed to be.
 describe('더하기?', () => {
