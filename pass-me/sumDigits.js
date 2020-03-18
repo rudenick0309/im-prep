@@ -13,6 +13,17 @@ console.log(output2); // --> 4
 
 function sumDigits(num) {
   // your code here
+  let sum = 0;
+  const arrN = num.toString().split('');
+  console.log('체크', arrN);
+  for (let i = 0; i < arrN.length; i += 1) {
+    if (arrN[0] === '-' && i === 1) {
+      sum -= Number(arrN[1]);
+    } else if (arrN[i] !== '-') {
+      sum += Number(arrN[i]);
+    }
+  }
+  return sum;
 }
 
 module.exports = sumDigits;
