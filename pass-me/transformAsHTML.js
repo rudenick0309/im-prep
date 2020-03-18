@@ -38,6 +38,11 @@ function printRole(user) {
 
 // eslint-disable-next-line no-unused-vars
 function transformAsHTML(array) {
+<<<<<<< HEAD
+  const container = document.querySelector('#container');
+
+=======
+>>>>>>> 75258b76542a2760fb5dfbb81dd26db45ed24209
   // your code here
 
   const container = document.querySelector('#container');
@@ -65,5 +70,6 @@ function transformAsHTML(array) {
     container.appendChild(createLi);
     createLi.appendChild(createA);
     createLi.appendChild(createDiv);
+    // 페어님의 코드에서 추가하여 다시 push함.
   }
 }

@@ -11,8 +11,31 @@ let output = countWords('ask a bunch get a bunch');
 console.log(output); // --> {ask: 1, a: 2, bunch: 2, get: 1}
 */
 
+// 스코프 클로저 레스트파라미터 디폴트파라미터
 function countWords(input) {
   // your code here
+  // console.log(e);
+  if (input === '') {
+    return {};
+  }
+  const test = input.split(' ');
+  // eslint-disable-next-line no-console
+  console.log(test);
+  const result = test.reduce((a, c) => {
+    if (a[c]) {
+      // eslint-disable-next-line no-plusplus
+      a[c]++;
+    } else {
+      // eslint-disable-next-line no-param-reassign
+      a[c] = 1;
+    }
+    return a;
+  }, {});
+  return result;
 }
 
+
 module.exports = countWords;
+
+
+// 깃 테스트 중

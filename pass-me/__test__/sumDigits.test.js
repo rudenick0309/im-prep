@@ -1,6 +1,6 @@
-const sumDigits = require("../sumDigits");
+const sumDigits = require('../sumDigits');
 
-describe("sumDigits", function() {
+describe('sumDigits', function() {
   test("숫자를 리턴해야 합니다", function() {
     expect(typeof sumDigits(2002)).toBe("number");
   });

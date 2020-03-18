@@ -22,6 +22,9 @@ multiplicativePersistence 함수는 양수를 파라미터로 받는 함수로,
 function multiplicativePersistence(num) {
   // your code here
 
+<<<<<<< HEAD
+
+=======
   if (num === 0) {
     return 0;
   }
@@ -38,7 +41,9 @@ function multiplicativePersistence(num) {
     return multiplicativePersistence(result); // 여기가문제.... 리턴을 안했었다.......
   }
 
+  // 페어님의 코드에서 추가하여 다시 push함.
   return result;
+>>>>>>> 75258b76542a2760fb5dfbb81dd26db45ed24209
 }
 
 if (typeof window === 'undefined') {

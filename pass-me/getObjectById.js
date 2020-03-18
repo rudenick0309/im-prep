@@ -11,7 +11,10 @@ let output = getObjectById(TREE_DATA.items, '1'));
 console.log(output); // --> { "id": "1", "name": "johnny" }
 */
 
+<<<<<<< HEAD
+=======
 // eslint-disable-next-line no-unused-vars
+>>>>>>> 18c956969fb5343ca7d3a95e0a61ac9169448ecc
 const TREE_DATA = {
   items: [
     {
@@ -74,6 +77,19 @@ const TREE_DATA = {
   ],
 };
 
+<<<<<<< HEAD
+// eslint-disable-next-line consistent-return
+function getObjectById(json, id) {
+  // your code here
+
+}
+
+
+module.exports = {
+  getObjectById,
+  TREE_DATA,
+};
+=======
 
 // 최종적인 마지막자식의 객체를 반환해라??
 // 해당 id를 가지고 있는 객체를 찾아라.
@@ -94,3 +110,6 @@ function getObjectById(json, id) {
     }
   }
 }
+// 페어의 코드에서 내가 변경한 부분, 주석
+
+>>>>>>> 18c956969fb5343ca7d3a95e0a61ac9169448ecc
